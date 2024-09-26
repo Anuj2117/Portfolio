@@ -410,7 +410,7 @@ span {
     width: 75%;
   }
   .skills .items .item {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -451,5 +451,8 @@ span {
   }
   .skills {
     margin-top: 45%;
+  }
+  .skills .items .item {
+    width: 75%;
   }
 }
