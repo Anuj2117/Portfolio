@@ -18,26 +18,26 @@ const Contact = () => {
           data-aos-duration="1000"
         >
           <a href="https://www.instagram.com/anuj__2117/" target="_blank" className="items">
-            <FaInstagram className="icons" />
+            <FaInstagram className="icons" style={{color: "CADCFC"}}/>
           </a>
           <a href="https://www.google.com" target="_blank" className="items">
-            <CiFacebook className="icons" />
+            <CiFacebook className="icons" style={{color: "CADCFC"}} />
           </a>
           <a href="https://www.linkedin.com/in/anuj-kushwaha-35653b264" target="_blank" className="items">
-            <CiLinkedin className="icons" />
+            <CiLinkedin className="icons" style={{color: "CADCFC"}} />
           </a>
           <a href="https://x.com/Anujkus18200114" target="_blank" className="items">
-            <FaSquareXTwitter className="icons" />
+            <FaSquareXTwitter className="icons" style={{color: "CADCFC"}} />
           </a>
           <a href="https://github.com/Anuj2117" target="_blank" className="items">
-            <FaGithubSquare className="icons" />
+            <FaGithubSquare className="icons" style={{color: "CADCFC"}}/>
           </a>
           <a
             href="mailto:anujKushwaha221@gmail.com"
             target="_blank"
             className="items"
           >
-            <SiGmail className="icons" />
+            <SiGmail className="icons" style={{color: "CADCFC"}} />
           </a>
         </div>
       </div>
