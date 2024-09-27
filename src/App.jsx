@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from './components/Contact/Contact';
 import Aos from "aos";
 import "aos/dist/aos.css"
+import Background from "./components/background/Background";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
  
   return (
     <>
+     <Background/>
       <Navbar />
       <div className="container">
         <Home />
