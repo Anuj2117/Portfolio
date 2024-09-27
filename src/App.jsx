@@ -18,7 +18,7 @@ const App = () => {
  
   return (
     <>
-     <Background/>
+       <Background/>
       <Navbar />
       <div className="container">
         <Home />
@@ -27,6 +27,7 @@ const App = () => {
         <Education/>
         <Contact />
       </div>
+  
     </>
   );
 };
