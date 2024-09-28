@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Aos from "aos";
 import "aos/dist/aos.css"
 import Background from "./components/background/Background";
+import Summary from "./components/summary/Summary";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Navbar />
       <div className="container">
         <Home />
+        <Summary/>
         <Skills />
         <Projects />
         <Education/>

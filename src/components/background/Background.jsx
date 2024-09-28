@@ -8,7 +8,7 @@ const Background = () => {
         <div className="background">
             {shapes.map((_, index) => {
                 const animationDuration = `${8 + Math.random() * 4}s`;
-                const leftPosition = `${Math.random() * (100 - (80 / window.innerWidth))}vw`; 
+                const leftPosition = `${Math.random() * (100 - (20 / window.innerWidth))}vw`; 
                 return (
                     <div
                         key={index}
