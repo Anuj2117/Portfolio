@@ -6,6 +6,7 @@
 body {
   background-color: rgb(11, 26, 51);
   color: white;
+  font-family: Playwrite;
   /* overflow: hidden; */
 }
 h1 {
@@ -150,7 +151,9 @@ a {
   top: 0;
   left: 0;
 }
-
+.card-container p{
+  font-size: 18px;
+}
 /* When the card is flipped */
 .card-container.flipped .card-front {
   transform: rotateY(-180deg); 
@@ -177,6 +180,7 @@ a {
 .flip-button:hover {
   box-shadow: none;
 }
+
 
 /* ------------------Skills------------------ */
 
