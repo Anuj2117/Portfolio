@@ -152,6 +152,8 @@ a {
   left: 0;
 }
 .card-container p{
+  max-width: 90%; 
+  margin: 0 auto;
   font-size: 18px;
 }
 /* When the card is flipped */
@@ -371,6 +373,7 @@ h2 {
 
 p {
   font-size: 1rem;
+  
 }
 
 span {
@@ -600,4 +603,11 @@ span {
   .skills .items .item {
     width: 75%;
   }
+  .card-container p{
+    font-size: 15px;
+  }
+  .card-container .card-front,
+.card-container .card-back{
+  margin-top:55%;
+}
 }
