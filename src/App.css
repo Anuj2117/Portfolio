@@ -698,10 +698,12 @@ a .arrow {
   .card-container .card-back {
     margin-top: 55%;
   }
+  
   .flip-card-front h3,
   .flip-card-front h4 {
     font-size: 19px;
     line-height: 30px;
+    height: auto;
   }
   .flip-card-front button,
   .flip-card-back button {
@@ -713,5 +715,8 @@ a .arrow {
   }
   .flip-card-back a span{
     font-size: 12px;
+  }
+  .educationWrapper{
+    margin-bottom: 10%;
   }
 }
